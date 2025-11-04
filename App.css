@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-div {
+  text-align: center;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4xp;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 85%;
+}
+
+.main-heading {
+  color: brown;
+  margin-bottom: 20px;
+}
+.navbar a {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+nav a :hover {
+  background-color: aqua;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background: blue;
+  color: white;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.delete-btn {
+  background-color: red;
+}
+
+input {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
